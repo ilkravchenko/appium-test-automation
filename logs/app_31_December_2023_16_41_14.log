@@ -1,0 +1,807 @@
+[32m2023-12-31 16:41:46,508 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:41:46,509 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:41:49,956 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element HTTP/1.1" 200 0
+[36m2023-12-31 16:41:49,956 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0351-0000-000500000001","ELEMENT":"00000000-0000-0351-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-3eHFHuXQQdx46X1+UKetyd3EtGg"', 'Date': 'Sun, 31 Dec 2023 13:41:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:49,956 - DEBUG - Finished Request
+[32m2023-12-31 16:41:49,956 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:41:49,956 - INFO - Element found: True
+[36m2023-12-31 16:41:49,956 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0351-0000-000500000001/click {}
+[36m2023-12-31 16:41:50,085 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0351-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:41:50,086 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:41:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:50,087 - DEBUG - Finished Request
+[32m2023-12-31 16:41:50,088 - INFO - Clicked on the element.
+[36m2023-12-31 16:41:50,088 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:41:52,466 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element HTTP/1.1" 200 0
+[36m2023-12-31 16:41:52,466 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0352-0000-001300000018","ELEMENT":"00000000-0000-0352-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-9Hrqau+rywyGYJUf2VXp/p2Q4xg"', 'Date': 'Sun, 31 Dec 2023 13:41:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:52,466 - DEBUG - Finished Request
+[32m2023-12-31 16:41:52,466 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:41:52,466 - INFO - Element found: True
+[36m2023-12-31 16:41:52,466 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:41:53,004 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:41:53,004 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:41:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:53,004 - DEBUG - Finished Request
+[32m2023-12-31 16:41:53,004 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:41:53,004 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:41:53,584 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element HTTP/1.1" 200 0
+[36m2023-12-31 16:41:53,585 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0352-0000-001f00000039","ELEMENT":"00000000-0000-0352-0000-001f00000039"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-DwZtOsbc+WsqQMFW0Q7jIvzswgU"', 'Date': 'Sun, 31 Dec 2023 13:41:53 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:53,585 - DEBUG - Finished Request
+[32m2023-12-31 16:41:53,586 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:41:53,586 - INFO - Element found: True
+[36m2023-12-31 16:41:53,586 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-001f00000039/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:41:53,758 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-001f00000039/value HTTP/1.1" 200 0
+[36m2023-12-31 16:41:53,759 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:41:53 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:53,759 - DEBUG - Finished Request
+[32m2023-12-31 16:41:53,759 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:41:53,759 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:41:54,774 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element HTTP/1.1" 200 0
+[36m2023-12-31 16:41:54,775 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0352-0000-000f0000003c","ELEMENT":"00000000-0000-0352-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-M8JrArg9ow4b3bjc56zoDlE12VQ"', 'Date': 'Sun, 31 Dec 2023 13:41:54 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:54,775 - DEBUG - Finished Request
+[32m2023-12-31 16:41:54,775 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:41:54,775 - INFO - Element found: True
+[36m2023-12-31 16:41:54,775 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-000f0000003c/click {}
+[36m2023-12-31 16:41:54,909 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element/00000000-0000-0352-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:41:54,910 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:41:54 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:41:54,910 - DEBUG - Finished Request
+[32m2023-12-31 16:41:54,910 - INFO - Clicked on the element.
+[36m2023-12-31 16:42:04,912 - DEBUG - POST http://127.0.0.1:4723/session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:42:05,094 - DEBUG - http://127.0.0.1:4723 "POST /session/556a9174-ef1d-4957-abcd-b7e52937b5c4/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:05,095 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0354-ffff-ffff00000056","ELEMENT":"00000000-0000-0354-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-n5ODrt1YkO+PRRokRHKFVU9qxa8"', 'Date': 'Sun, 31 Dec 2023 13:42:05 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:05,095 - DEBUG - Finished Request
+[32m2023-12-31 16:42:05,095 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:42:05,095 - INFO - Element found: True
+[32m2023-12-31 16:42:05,095 - INFO - Login test completed.
+
+
+
+[36m2023-12-31 16:42:05,102 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:42:05,102 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:42:36,721 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:42:36,721 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"478b1554-6f01-4037-8304-12397d9ece08"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-ZUTqSO8HSWNbXewFCAwWHqtNalc"', 'Date': 'Sun, 31 Dec 2023 13:42:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:36,721 - DEBUG - Finished Request
+[32m2023-12-31 16:42:36,727 - INFO - Starting login test for credentials: {'email': 'invalid_email@example.com', 'password': 'invalid_password'}
+
+[36m2023-12-31 16:42:36,727 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:42:40,167 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:40,168 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0357-0000-000500000001","ELEMENT":"00000000-0000-0357-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-Ukm42T4VkWZY8BdJEZlcm9GNdaQ"', 'Date': 'Sun, 31 Dec 2023 13:42:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:40,168 - DEBUG - Finished Request
+[32m2023-12-31 16:42:40,168 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:42:40,168 - INFO - Element found: True
+[36m2023-12-31 16:42:40,168 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0357-0000-000500000001/click {}
+[36m2023-12-31 16:42:40,284 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0357-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:42:40,284 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:42:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:40,284 - DEBUG - Finished Request
+[32m2023-12-31 16:42:40,284 - INFO - Clicked on the element.
+[36m2023-12-31 16:42:40,284 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:42:42,573 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:42,573 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0358-0000-001300000018","ELEMENT":"00000000-0000-0358-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-G4lmCeP5FQw951eIRUeUQnS/ong"', 'Date': 'Sun, 31 Dec 2023 13:42:42 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:42,574 - DEBUG - Finished Request
+[32m2023-12-31 16:42:42,574 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:42:42,574 - INFO - Element found: True
+[36m2023-12-31 16:42:42,574 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-001300000018/value {"text": "invalid_email@example.com", "value": ["i", "n", "v", "a", "l", "i", "d", "_", "e", "m", "a", "i", "l", "@", "e", "x", "a", "m", "p", "l", "e", ".", "c", "o", "m"]}
+[36m2023-12-31 16:42:42,667 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:42:42,667 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:42:42 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:42,667 - DEBUG - Finished Request
+[32m2023-12-31 16:42:42,667 - INFO - Sent the keys invalid_email@example.com to the element
+[36m2023-12-31 16:42:42,667 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:42:43,221 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:43,227 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0358-0000-001f00000039","ELEMENT":"00000000-0000-0358-0000-001f00000039"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-n/Ud1g1JgpQaAPQiLtCslVgzhDE"', 'Date': 'Sun, 31 Dec 2023 13:42:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:43,227 - DEBUG - Finished Request
+[32m2023-12-31 16:42:43,227 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:42:43,227 - INFO - Element found: True
+[36m2023-12-31 16:42:43,227 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-001f00000039/value {"text": "invalid_password", "value": ["i", "n", "v", "a", "l", "i", "d", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:42:43,323 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-001f00000039/value HTTP/1.1" 200 0
+[36m2023-12-31 16:42:43,323 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:42:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:43,323 - DEBUG - Finished Request
+[32m2023-12-31 16:42:43,323 - INFO - Sent the keys invalid_password to the element
+[36m2023-12-31 16:42:43,323 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:42:43,757 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:43,758 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0358-0000-000f0000003c","ELEMENT":"00000000-0000-0358-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-6pOMGgUvlua+gfbeCnHt0+D0pf8"', 'Date': 'Sun, 31 Dec 2023 13:42:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:43,758 - DEBUG - Finished Request
+[32m2023-12-31 16:42:43,758 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:42:43,759 - INFO - Element found: True
+[36m2023-12-31 16:42:43,759 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-000f0000003c/click {}
+[36m2023-12-31 16:42:43,943 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element/00000000-0000-0358-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:42:43,943 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:42:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:43,943 - DEBUG - Finished Request
+[32m2023-12-31 16:42:43,943 - INFO - Clicked on the element.
+[36m2023-12-31 16:42:53,951 - DEBUG - POST http://127.0.0.1:4723/session/478b1554-6f01-4037-8304-12397d9ece08/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:42:54,364 - DEBUG - http://127.0.0.1:4723 "POST /session/478b1554-6f01-4037-8304-12397d9ece08/element HTTP/1.1" 200 0
+[36m2023-12-31 16:42:54,364 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0358-0000-000f0000003c","ELEMENT":"00000000-0000-0358-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-6pOMGgUvlua+gfbeCnHt0+D0pf8"', 'Date': 'Sun, 31 Dec 2023 13:42:54 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:42:54,364 - DEBUG - Finished Request
+[32m2023-12-31 16:42:54,364 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:42:54,364 - INFO - Element found: True
+[32m2023-12-31 16:42:54,364 - INFO - Login test completed.
+
+
+
+[36m2023-12-31 16:42:54,374 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:42:54,374 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:43:31,796 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:43:31,796 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"e5940b4e-f80e-43b6-8994-4462ccfb26c9"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-lBMBMZoaoHRoA7Uub6Ep25YqUOI"', 'Date': 'Sun, 31 Dec 2023 13:43:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:31,796 - DEBUG - Finished Request
+[32m2023-12-31 16:43:31,809 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:43:31,809 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:43:34,822 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:34,822 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035c-0000-000500000001","ELEMENT":"00000000-0000-035c-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-jb+fQBkquJDb1SQeJuDJPS+zfuI"', 'Date': 'Sun, 31 Dec 2023 13:43:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:34,823 - DEBUG - Finished Request
+[32m2023-12-31 16:43:34,823 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:43:34,824 - INFO - Element found: True
+[36m2023-12-31 16:43:34,824 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035c-0000-000500000001/click {}
+[36m2023-12-31 16:43:35,201 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035c-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:43:35,202 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:35 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:35,202 - DEBUG - Finished Request
+[32m2023-12-31 16:43:35,202 - INFO - Clicked on the element.
+[36m2023-12-31 16:43:35,203 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:43:37,498 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:37,498 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035d-0000-001300000018","ELEMENT":"00000000-0000-035d-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-NcoCwTFTsBzV4ExuTCbJCOCGAgo"', 'Date': 'Sun, 31 Dec 2023 13:43:37 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:37,499 - DEBUG - Finished Request
+[32m2023-12-31 16:43:37,499 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:43:37,499 - INFO - Element found: True
+[36m2023-12-31 16:43:37,500 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:43:37,623 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:43:37,623 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:37 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:37,623 - DEBUG - Finished Request
+[32m2023-12-31 16:43:37,624 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:43:37,624 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:43:38,161 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:38,162 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035d-0000-001f00000039","ELEMENT":"00000000-0000-035d-0000-001f00000039"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-zlKml8NSwraIH5USJCTPb1HRYpM"', 'Date': 'Sun, 31 Dec 2023 13:43:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:38,162 - DEBUG - Finished Request
+[32m2023-12-31 16:43:38,162 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:43:38,162 - INFO - Element found: True
+[36m2023-12-31 16:43:38,162 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-001f00000039/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:43:38,245 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-001f00000039/value HTTP/1.1" 200 0
+[36m2023-12-31 16:43:38,245 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:38,246 - DEBUG - Finished Request
+[32m2023-12-31 16:43:38,246 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:43:38,247 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:43:38,684 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:38,685 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035d-0000-000f0000003c","ELEMENT":"00000000-0000-035d-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-1eN26LW0P0XVgBdH+7HVfUr5rFQ"', 'Date': 'Sun, 31 Dec 2023 13:43:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:38,685 - DEBUG - Finished Request
+[32m2023-12-31 16:43:38,687 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:43:38,687 - INFO - Element found: True
+[36m2023-12-31 16:43:38,687 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-000f0000003c/click {}
+[36m2023-12-31 16:43:38,850 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035d-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:43:38,850 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:38,850 - DEBUG - Finished Request
+[32m2023-12-31 16:43:38,850 - INFO - Clicked on the element.
+[36m2023-12-31 16:43:48,856 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:43:49,264 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:49,265 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035f-ffff-ffff00000056","ELEMENT":"00000000-0000-035f-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-4ovY9oclMYiSyNuFQzmxZjKAmUY"', 'Date': 'Sun, 31 Dec 2023 13:43:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:49,265 - DEBUG - Finished Request
+[32m2023-12-31 16:43:49,265 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:43:49,267 - INFO - Element found: True
+[32m2023-12-31 16:43:49,267 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:43:49,267 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:43:49,267 - INFO - Starting menu test for option: settings
+
+[36m2023-12-31 16:43:49,267 - DEBUG - Trying to select option: settings for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:43:49,267 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:43:49,386 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:49,386 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035f-ffff-ffff00000057","ELEMENT":"00000000-0000-035f-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-o/qy5yOunZ8LgZqv7vRjvdX/Fgk"', 'Date': 'Sun, 31 Dec 2023 13:43:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:49,386 - DEBUG - Finished Request
+[32m2023-12-31 16:43:49,386 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:43:49,386 - INFO - Element found: True
+[36m2023-12-31 16:43:49,386 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-ffff-ffff00000057/click {}
+[36m2023-12-31 16:43:49,469 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:43:49,469 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:49,469 - DEBUG - Finished Request
+[32m2023-12-31 16:43:49,469 - INFO - Clicked on the element.
+[36m2023-12-31 16:43:49,469 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:43:49,469 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:43:50,542 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:50,542 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035f-ffff-ffff00000094","ELEMENT":"00000000-0000-035f-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-8VV0PebjER+kOyGML8v2hTqFfUY"', 'Date': 'Sun, 31 Dec 2023 13:43:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:50,542 - DEBUG - Finished Request
+[32m2023-12-31 16:43:50,543 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:43:50,544 - INFO - Element found: True
+[36m2023-12-31 16:43:50,544 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-ffff-ffff00000094/click {}
+[36m2023-12-31 16:43:51,073 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:43:51,074 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:51,074 - DEBUG - Finished Request
+[32m2023-12-31 16:43:51,074 - INFO - Clicked on the element.
+[36m2023-12-31 16:43:51,074 - DEBUG - Checking for menu options
+[36m2023-12-31 16:43:51,074 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/settings\")"}
+[36m2023-12-31 16:43:51,193 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:51,193 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-035f-0000-004000000092","ELEMENT":"00000000-0000-035f-0000-004000000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-rWbKjLOWnmThnhoqG53R7KW+kq0"', 'Date': 'Sun, 31 Dec 2023 13:43:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:51,193 - DEBUG - Finished Request
+[32m2023-12-31 16:43:51,193 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/settings")
+[32m2023-12-31 16:43:51,193 - INFO - Element found: True
+[36m2023-12-31 16:43:51,193 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-0000-004000000092/click {}
+[36m2023-12-31 16:43:51,417 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-035f-0000-004000000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:43:51,417 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:43:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:51,417 - DEBUG - Finished Request
+[32m2023-12-31 16:43:51,424 - INFO - Clicked on the element.
+[36m2023-12-31 16:43:56,426 - DEBUG - POST http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element {"using": "id", "value": "com.ajaxsystems:id/toolbarTitle"}
+[36m2023-12-31 16:43:56,581 - DEBUG - http://127.0.0.1:4723 "POST /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element HTTP/1.1" 200 0
+[36m2023-12-31 16:43:56,581 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0360-ffff-ffff000000b8","ELEMENT":"00000000-0000-0360-ffff-ffff000000b8"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-BBPO5hIGBMXdixYC+CRpy0zQwzg"', 'Date': 'Sun, 31 Dec 2023 13:43:56 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:56,581 - DEBUG - Finished Request
+[32m2023-12-31 16:43:56,581 - INFO - Using ID to find identifier com.ajaxsystems:id/toolbarTitle
+[32m2023-12-31 16:43:56,581 - INFO - Element found: True
+[36m2023-12-31 16:43:56,581 - DEBUG - GET http://127.0.0.1:4723/session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-0360-ffff-ffff000000b8/text {}
+[36m2023-12-31 16:43:57,140 - DEBUG - http://127.0.0.1:4723 "GET /session/e5940b4e-f80e-43b6-8994-4462ccfb26c9/element/00000000-0000-0360-ffff-ffff000000b8/text HTTP/1.1" 200 0
+[36m2023-12-31 16:43:57,140 - DEBUG - Remote response: status=200 | data={"sessionId":"e5940b4e-f80e-43b6-8994-4462ccfb26c9","value":"Settings"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '71', 'ETag': 'W/"47-x/44czGUwTSwO4M+ktty9VEOHnU"', 'Date': 'Sun, 31 Dec 2023 13:43:57 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:43:57,140 - DEBUG - Finished Request
+[32m2023-12-31 16:43:57,140 - INFO - Menu option test passed for credentials: settings
+[32m2023-12-31 16:43:57,140 - INFO - Menu test completed.
+
+
+
+[36m2023-12-31 16:43:57,149 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:43:57,149 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:44:32,788 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:44:32,788 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"f9ed0916-1f67-419e-b1cd-e2c2bd92425c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-zISqOqKaqE25J0U+WJCD6JlTw40"', 'Date': 'Sun, 31 Dec 2023 13:44:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:32,788 - DEBUG - Finished Request
+[32m2023-12-31 16:44:32,796 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:44:32,796 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:44:36,046 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:36,046 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0364-0000-000500000001","ELEMENT":"00000000-0000-0364-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-eUW+JolYxHhvKMTOJItys0Ta9jI"', 'Date': 'Sun, 31 Dec 2023 13:44:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:36,046 - DEBUG - Finished Request
+[32m2023-12-31 16:44:36,046 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:44:36,046 - INFO - Element found: True
+[36m2023-12-31 16:44:36,046 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0364-0000-000500000001/click {}
+[36m2023-12-31 16:44:36,331 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0364-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:44:36,331 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:36,331 - DEBUG - Finished Request
+[32m2023-12-31 16:44:36,331 - INFO - Clicked on the element.
+[36m2023-12-31 16:44:36,331 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:44:38,486 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:38,487 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0365-0000-001300000018","ELEMENT":"00000000-0000-0365-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-nq4nPY88G3/NEpg1sdg6+Re4WEk"', 'Date': 'Sun, 31 Dec 2023 13:44:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:38,487 - DEBUG - Finished Request
+[32m2023-12-31 16:44:38,487 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:44:38,487 - INFO - Element found: True
+[36m2023-12-31 16:44:38,487 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:44:38,723 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:44:38,723 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:38,724 - DEBUG - Finished Request
+[32m2023-12-31 16:44:38,724 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:44:38,724 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:44:39,781 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:39,781 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0365-0000-001f0000003a","ELEMENT":"00000000-0000-0365-0000-001f0000003a"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-DlczwIYR8ttVZAwBC8ITADP1iRQ"', 'Date': 'Sun, 31 Dec 2023 13:44:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:39,781 - DEBUG - Finished Request
+[32m2023-12-31 16:44:39,781 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:44:39,781 - INFO - Element found: True
+[36m2023-12-31 16:44:39,781 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-001f0000003a/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:44:39,904 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-001f0000003a/value HTTP/1.1" 200 0
+[36m2023-12-31 16:44:39,904 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:39,904 - DEBUG - Finished Request
+[32m2023-12-31 16:44:39,904 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:44:39,904 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:44:40,495 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:40,496 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0365-0000-000f0000003c","ELEMENT":"00000000-0000-0365-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-5BcclydI9eQg8WR55HVSsNh4Hlw"', 'Date': 'Sun, 31 Dec 2023 13:44:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:40,496 - DEBUG - Finished Request
+[32m2023-12-31 16:44:40,497 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:44:40,498 - INFO - Element found: True
+[36m2023-12-31 16:44:40,498 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-000f0000003c/click {}
+[36m2023-12-31 16:44:40,617 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0365-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:44:40,617 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:40,617 - DEBUG - Finished Request
+[32m2023-12-31 16:44:40,617 - INFO - Clicked on the element.
+[36m2023-12-31 16:44:50,623 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:44:50,788 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:50,788 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0367-ffff-ffff00000056","ELEMENT":"00000000-0000-0367-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-nqukwB8QRxa7EfTsQy1/Cci9CV4"', 'Date': 'Sun, 31 Dec 2023 13:44:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:50,788 - DEBUG - Finished Request
+[32m2023-12-31 16:44:50,788 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:44:50,788 - INFO - Element found: True
+[32m2023-12-31 16:44:50,788 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:44:50,788 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:44:50,788 - INFO - Starting menu test for option: help
+
+[36m2023-12-31 16:44:50,788 - DEBUG - Trying to select option: help for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:44:50,788 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:44:50,894 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:50,894 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0367-ffff-ffff00000057","ELEMENT":"00000000-0000-0367-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-I5Rpa86uLeVS6T82nfri3zQCbr4"', 'Date': 'Sun, 31 Dec 2023 13:44:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:50,894 - DEBUG - Finished Request
+[32m2023-12-31 16:44:50,894 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:44:50,894 - INFO - Element found: True
+[36m2023-12-31 16:44:50,894 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-ffff-ffff00000057/click {}
+[36m2023-12-31 16:44:50,964 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:44:50,964 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:50,965 - DEBUG - Finished Request
+[32m2023-12-31 16:44:50,966 - INFO - Clicked on the element.
+[36m2023-12-31 16:44:50,967 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:44:50,967 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:44:51,097 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:51,097 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0367-ffff-ffff00000094","ELEMENT":"00000000-0000-0367-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-b3K/iEr5ottte5g9S0OMkrKVfnQ"', 'Date': 'Sun, 31 Dec 2023 13:44:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:51,097 - DEBUG - Finished Request
+[32m2023-12-31 16:44:51,097 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:44:51,097 - INFO - Element found: True
+[36m2023-12-31 16:44:51,099 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-ffff-ffff00000094/click {}
+[36m2023-12-31 16:44:52,416 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:44:52,416 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:52,416 - DEBUG - Finished Request
+[32m2023-12-31 16:44:52,416 - INFO - Clicked on the element.
+[36m2023-12-31 16:44:52,416 - DEBUG - Checking for menu options
+[36m2023-12-31 16:44:52,416 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/help\")"}
+[36m2023-12-31 16:44:52,543 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:52,544 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0367-0000-004400000092","ELEMENT":"00000000-0000-0367-0000-004400000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-r24dzz212j4fR/8PBeCD6bepcak"', 'Date': 'Sun, 31 Dec 2023 13:44:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:52,544 - DEBUG - Finished Request
+[32m2023-12-31 16:44:52,544 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/help")
+[32m2023-12-31 16:44:52,544 - INFO - Element found: True
+[36m2023-12-31 16:44:52,544 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-0000-004400000092/click {}
+[36m2023-12-31 16:44:52,730 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0367-0000-004400000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:44:52,730 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:44:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:52,730 - DEBUG - Finished Request
+[32m2023-12-31 16:44:52,730 - INFO - Clicked on the element.
+[36m2023-12-31 16:44:57,731 - DEBUG - POST http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element {"using": "id", "value": "com.ajaxsystems:id/toolbarTitle"}
+[36m2023-12-31 16:44:57,853 - DEBUG - http://127.0.0.1:4723 "POST /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element HTTP/1.1" 200 0
+[36m2023-12-31 16:44:57,853 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0368-ffff-ffff000000aa","ELEMENT":"00000000-0000-0368-ffff-ffff000000aa"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-zqq9nQKiQl2Q4jyjwTiO3MneJ3w"', 'Date': 'Sun, 31 Dec 2023 13:44:57 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:57,854 - DEBUG - Finished Request
+[32m2023-12-31 16:44:57,854 - INFO - Using ID to find identifier com.ajaxsystems:id/toolbarTitle
+[32m2023-12-31 16:44:57,854 - INFO - Element found: True
+[36m2023-12-31 16:44:57,854 - DEBUG - GET http://127.0.0.1:4723/session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0368-ffff-ffff000000aa/text {}
+[36m2023-12-31 16:44:58,477 - DEBUG - http://127.0.0.1:4723 "GET /session/f9ed0916-1f67-419e-b1cd-e2c2bd92425c/element/00000000-0000-0368-ffff-ffff000000aa/text HTTP/1.1" 200 0
+[36m2023-12-31 16:44:58,478 - DEBUG - Remote response: status=200 | data={"sessionId":"f9ed0916-1f67-419e-b1cd-e2c2bd92425c","value":"Installation Manuals"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '83', 'ETag': 'W/"53-H53fCcfCZtbfdHn9QEIpO1Drye0"', 'Date': 'Sun, 31 Dec 2023 13:44:58 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:44:58,478 - DEBUG - Finished Request
+[32m2023-12-31 16:44:58,478 - INFO - Menu option test passed for credentials: help
+[32m2023-12-31 16:44:58,478 - INFO - Menu test completed.
+
+
+
+[36m2023-12-31 16:44:58,485 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:44:58,485 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:45:34,897 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:45:34,898 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"4f8cc5fb-4eac-44f1-b233-69621c9d5481"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-Rieijdxe5f3QdHhLyfn/2cgl1Ho"', 'Date': 'Sun, 31 Dec 2023 13:45:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:34,898 - DEBUG - Finished Request
+[32m2023-12-31 16:45:34,905 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:45:34,905 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:45:38,373 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:38,373 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036c-0000-000500000001","ELEMENT":"00000000-0000-036c-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-KJivf4YtFJafA/vOimwoAsyU5ns"', 'Date': 'Sun, 31 Dec 2023 13:45:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:38,373 - DEBUG - Finished Request
+[32m2023-12-31 16:45:38,373 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:45:38,373 - INFO - Element found: True
+[36m2023-12-31 16:45:38,373 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036c-0000-000500000001/click {}
+[36m2023-12-31 16:45:38,490 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036c-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:45:38,490 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:38,490 - DEBUG - Finished Request
+[32m2023-12-31 16:45:38,490 - INFO - Clicked on the element.
+[36m2023-12-31 16:45:38,490 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:45:40,649 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:40,650 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036d-0000-001300000018","ELEMENT":"00000000-0000-036d-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-8bKQktqdcgI4s8nTPqPZk7iF5g8"', 'Date': 'Sun, 31 Dec 2023 13:45:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:40,650 - DEBUG - Finished Request
+[32m2023-12-31 16:45:40,651 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:45:40,651 - INFO - Element found: True
+[36m2023-12-31 16:45:40,652 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:45:40,894 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:45:40,894 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:40,895 - DEBUG - Finished Request
+[32m2023-12-31 16:45:40,895 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:45:40,895 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:45:41,888 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:41,888 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036d-0000-001f0000003a","ELEMENT":"00000000-0000-036d-0000-001f0000003a"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-bHhjUY/5+uJTrB0m0a+3zkrj5N0"', 'Date': 'Sun, 31 Dec 2023 13:45:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:41,888 - DEBUG - Finished Request
+[32m2023-12-31 16:45:41,888 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:45:41,888 - INFO - Element found: True
+[36m2023-12-31 16:45:41,888 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-001f0000003a/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:45:42,454 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-001f0000003a/value HTTP/1.1" 200 0
+[36m2023-12-31 16:45:42,454 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:42 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:42,454 - DEBUG - Finished Request
+[32m2023-12-31 16:45:42,454 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:45:42,454 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:45:43,056 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:43,056 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036d-0000-000f0000003c","ELEMENT":"00000000-0000-036d-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-kj84EEleG/+htNZmanQIMR06KWg"', 'Date': 'Sun, 31 Dec 2023 13:45:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:43,056 - DEBUG - Finished Request
+[32m2023-12-31 16:45:43,056 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:45:43,056 - INFO - Element found: True
+[36m2023-12-31 16:45:43,056 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-000f0000003c/click {}
+[36m2023-12-31 16:45:43,190 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036d-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:45:43,191 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:43,191 - DEBUG - Finished Request
+[32m2023-12-31 16:45:43,191 - INFO - Clicked on the element.
+[36m2023-12-31 16:45:53,193 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:45:53,506 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:53,507 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036f-ffff-ffff00000056","ELEMENT":"00000000-0000-036f-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-qYciMkV8UVz5PHogoTmE50Z6shM"', 'Date': 'Sun, 31 Dec 2023 13:45:53 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:53,507 - DEBUG - Finished Request
+[32m2023-12-31 16:45:53,507 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:45:53,507 - INFO - Element found: True
+[32m2023-12-31 16:45:53,507 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:45:53,508 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:45:53,509 - INFO - Starting menu test for option: logs
+
+[36m2023-12-31 16:45:53,510 - DEBUG - Trying to select option: logs for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:45:53,510 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:45:53,604 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:53,605 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036f-ffff-ffff00000057","ELEMENT":"00000000-0000-036f-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-U5fexi9+iOXcHx93/Z6BwrsrQq4"', 'Date': 'Sun, 31 Dec 2023 13:45:53 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:53,605 - DEBUG - Finished Request
+[32m2023-12-31 16:45:53,605 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:45:53,605 - INFO - Element found: True
+[36m2023-12-31 16:45:53,605 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-ffff-ffff00000057/click {}
+[36m2023-12-31 16:45:53,670 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:45:53,671 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:53 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:53,671 - DEBUG - Finished Request
+[32m2023-12-31 16:45:53,671 - INFO - Clicked on the element.
+[36m2023-12-31 16:45:53,671 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:45:53,671 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:45:54,754 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:54,755 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036f-ffff-ffff00000094","ELEMENT":"00000000-0000-036f-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-fEYtXxGs/b7wdm4S1+/FPQ0Hu4c"', 'Date': 'Sun, 31 Dec 2023 13:45:54 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:54,755 - DEBUG - Finished Request
+[32m2023-12-31 16:45:54,755 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:45:54,755 - INFO - Element found: True
+[36m2023-12-31 16:45:54,755 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-ffff-ffff00000094/click {}
+[36m2023-12-31 16:45:55,461 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:45:55,462 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:55 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:55,462 - DEBUG - Finished Request
+[32m2023-12-31 16:45:55,462 - INFO - Clicked on the element.
+[36m2023-12-31 16:45:55,462 - DEBUG - Checking for menu options
+[36m2023-12-31 16:45:55,462 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/logs\")"}
+[36m2023-12-31 16:45:55,597 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:45:55,597 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-036f-0000-004800000092","ELEMENT":"00000000-0000-036f-0000-004800000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-EbeKpyC685OZv3iOWSUu0d86cv4"', 'Date': 'Sun, 31 Dec 2023 13:45:55 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:55,597 - DEBUG - Finished Request
+[32m2023-12-31 16:45:55,597 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/logs")
+[32m2023-12-31 16:45:55,597 - INFO - Element found: True
+[36m2023-12-31 16:45:55,597 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-0000-004800000092/click {}
+[36m2023-12-31 16:45:55,840 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-036f-0000-004800000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:45:55,840 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:45:55 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:45:55,840 - DEBUG - Finished Request
+[32m2023-12-31 16:45:55,840 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:00,841 - DEBUG - POST http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element {"using": "id", "value": "com.ajaxsystems:id/title"}
+[36m2023-12-31 16:46:00,998 - DEBUG - http://127.0.0.1:4723 "POST /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:00,998 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0370-0000-005e000000aa","ELEMENT":"00000000-0000-0370-0000-005e000000aa"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-zz2KY0VowDKY3idgt9sluM92Hp8"', 'Date': 'Sun, 31 Dec 2023 13:46:00 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:00,998 - DEBUG - Finished Request
+[32m2023-12-31 16:46:00,998 - INFO - Using ID to find identifier com.ajaxsystems:id/title
+[32m2023-12-31 16:46:00,998 - INFO - Element found: True
+[36m2023-12-31 16:46:00,998 - DEBUG - GET http://127.0.0.1:4723/session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-0370-0000-005e000000aa/text {}
+[36m2023-12-31 16:46:01,579 - DEBUG - http://127.0.0.1:4723 "GET /session/4f8cc5fb-4eac-44f1-b233-69621c9d5481/element/00000000-0000-0370-0000-005e000000aa/text HTTP/1.1" 200 0
+[36m2023-12-31 16:46:01,579 - DEBUG - Remote response: status=200 | data={"sessionId":"4f8cc5fb-4eac-44f1-b233-69621c9d5481","value":"Report a Problem"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '79', 'ETag': 'W/"4f-gf+jzih1M9mrKN5wLPAIO+PXnw4"', 'Date': 'Sun, 31 Dec 2023 13:46:01 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:01,580 - DEBUG - Finished Request
+[32m2023-12-31 16:46:01,580 - INFO - Menu option test passed for credentials: logs
+[32m2023-12-31 16:46:01,580 - INFO - Menu test completed.
+
+
+
+[36m2023-12-31 16:46:01,586 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:46:01,588 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:46:32,370 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:46:32,371 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"d552e506-3341-47fe-be6b-d2a966156e61"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-PhUaF9SVmYaKiqdZpvOkw+pfpiE"', 'Date': 'Sun, 31 Dec 2023 13:46:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:32,371 - DEBUG - Finished Request
+[32m2023-12-31 16:46:32,380 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:46:32,382 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:46:35,762 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:35,763 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0373-0000-000500000001","ELEMENT":"00000000-0000-0373-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-GUQ8UEeWmdqiTu/WTTX/e+NxSbk"', 'Date': 'Sun, 31 Dec 2023 13:46:35 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:35,763 - DEBUG - Finished Request
+[32m2023-12-31 16:46:35,764 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:46:35,765 - INFO - Element found: True
+[36m2023-12-31 16:46:35,765 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0373-0000-000500000001/click {}
+[36m2023-12-31 16:46:35,896 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0373-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:46:35,897 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:35 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:35,897 - DEBUG - Finished Request
+[32m2023-12-31 16:46:35,897 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:35,899 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:46:38,169 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:38,169 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0374-0000-001300000018","ELEMENT":"00000000-0000-0374-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-ur/Z08mOvbmgeXM0YHq1qusuU8E"', 'Date': 'Sun, 31 Dec 2023 13:46:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:38,169 - DEBUG - Finished Request
+[32m2023-12-31 16:46:38,169 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:46:38,169 - INFO - Element found: True
+[36m2023-12-31 16:46:38,169 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:46:38,321 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:46:38,325 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:38,326 - DEBUG - Finished Request
+[32m2023-12-31 16:46:38,327 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:46:38,327 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:46:38,885 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:38,887 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0374-0000-001f0000003b","ELEMENT":"00000000-0000-0374-0000-001f0000003b"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-82Ou2vq7NI0QlKwMgScezMxDF10"', 'Date': 'Sun, 31 Dec 2023 13:46:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:38,887 - DEBUG - Finished Request
+[32m2023-12-31 16:46:38,887 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:46:38,887 - INFO - Element found: True
+[36m2023-12-31 16:46:38,887 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-001f0000003b/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:46:38,971 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-001f0000003b/value HTTP/1.1" 200 0
+[36m2023-12-31 16:46:38,971 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:38 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:38,971 - DEBUG - Finished Request
+[32m2023-12-31 16:46:38,971 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:46:38,971 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:46:39,393 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:39,394 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0374-0000-000f00000036","ELEMENT":"00000000-0000-0374-0000-000f00000036"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-TDxCeYm/aQSSE65ydI7Hw70eJcQ"', 'Date': 'Sun, 31 Dec 2023 13:46:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:39,394 - DEBUG - Finished Request
+[32m2023-12-31 16:46:39,394 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:46:39,394 - INFO - Element found: True
+[36m2023-12-31 16:46:39,394 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-000f00000036/click {}
+[36m2023-12-31 16:46:39,636 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0374-0000-000f00000036/click HTTP/1.1" 200 0
+[36m2023-12-31 16:46:39,637 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:39,637 - DEBUG - Finished Request
+[32m2023-12-31 16:46:39,637 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:49,638 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:46:49,800 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:49,800 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0376-ffff-ffff00000056","ELEMENT":"00000000-0000-0376-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-SIEacH4P+NJ2xCEYbaB6tvI77AA"', 'Date': 'Sun, 31 Dec 2023 13:46:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:49,800 - DEBUG - Finished Request
+[32m2023-12-31 16:46:49,800 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:46:49,800 - INFO - Element found: True
+[32m2023-12-31 16:46:49,800 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:46:49,800 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:46:49,800 - INFO - Starting menu test for option: camera
+
+[36m2023-12-31 16:46:49,800 - DEBUG - Trying to select option: camera for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:46:49,800 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:46:49,909 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:49,909 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0376-ffff-ffff00000057","ELEMENT":"00000000-0000-0376-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-1VoqYeXTtSdn2HkqiaZ9Ddkq0wY"', 'Date': 'Sun, 31 Dec 2023 13:46:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:49,909 - DEBUG - Finished Request
+[32m2023-12-31 16:46:49,909 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:46:49,909 - INFO - Element found: True
+[36m2023-12-31 16:46:49,909 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-ffff-ffff00000057/click {}
+[36m2023-12-31 16:46:49,994 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:46:49,994 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:49,996 - DEBUG - Finished Request
+[32m2023-12-31 16:46:49,996 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:49,997 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:46:49,998 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:46:51,047 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:51,047 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0376-ffff-ffff00000094","ELEMENT":"00000000-0000-0376-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-o9f5HtYCZ7wF+PK1KF15spV2yYk"', 'Date': 'Sun, 31 Dec 2023 13:46:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:51,047 - DEBUG - Finished Request
+[32m2023-12-31 16:46:51,047 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:46:51,047 - INFO - Element found: True
+[36m2023-12-31 16:46:51,047 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-ffff-ffff00000094/click {}
+[36m2023-12-31 16:46:51,577 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:46:51,577 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:51,577 - DEBUG - Finished Request
+[32m2023-12-31 16:46:51,577 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:51,577 - DEBUG - Checking for menu options
+[36m2023-12-31 16:46:51,577 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/camera\")"}
+[36m2023-12-31 16:46:51,710 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:51,710 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0376-0000-004c00000092","ELEMENT":"00000000-0000-0376-0000-004c00000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-CzzV5ntw8R+3hWDgQOliY/yHPHk"', 'Date': 'Sun, 31 Dec 2023 13:46:51 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:51,710 - DEBUG - Finished Request
+[32m2023-12-31 16:46:51,710 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/camera")
+[32m2023-12-31 16:46:51,710 - INFO - Element found: True
+[36m2023-12-31 16:46:51,710 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-0000-004c00000092/click {}
+[36m2023-12-31 16:46:52,526 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0376-0000-004c00000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:46:52,526 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:46:52 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:52,526 - DEBUG - Finished Request
+[32m2023-12-31 16:46:52,526 - INFO - Clicked on the element.
+[36m2023-12-31 16:46:57,540 - DEBUG - POST http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element {"using": "id", "value": "com.ajaxsystems:id/toolbarTitle"}
+[36m2023-12-31 16:46:57,655 - DEBUG - http://127.0.0.1:4723 "POST /session/d552e506-3341-47fe-be6b-d2a966156e61/element HTTP/1.1" 200 0
+[36m2023-12-31 16:46:57,656 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0377-ffff-ffff000000aa","ELEMENT":"00000000-0000-0377-ffff-ffff000000aa"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-ne1B/gzTUkYD44J5/4g98yfK6Ro"', 'Date': 'Sun, 31 Dec 2023 13:46:57 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:57,656 - DEBUG - Finished Request
+[32m2023-12-31 16:46:57,656 - INFO - Using ID to find identifier com.ajaxsystems:id/toolbarTitle
+[32m2023-12-31 16:46:57,656 - INFO - Element found: True
+[36m2023-12-31 16:46:57,656 - DEBUG - GET http://127.0.0.1:4723/session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0377-ffff-ffff000000aa/text {}
+[36m2023-12-31 16:46:57,707 - DEBUG - http://127.0.0.1:4723 "GET /session/d552e506-3341-47fe-be6b-d2a966156e61/element/00000000-0000-0377-ffff-ffff000000aa/text HTTP/1.1" 200 0
+[36m2023-12-31 16:46:57,707 - DEBUG - Remote response: status=200 | data={"sessionId":"d552e506-3341-47fe-be6b-d2a966156e61","value":"Video Surveillance"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '81', 'ETag': 'W/"51-zTclSpxQm5qinIsmvAYfsQG3KaI"', 'Date': 'Sun, 31 Dec 2023 13:46:57 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:46:57,707 - DEBUG - Finished Request
+[32m2023-12-31 16:46:57,707 - INFO - Menu option test passed for credentials: camera
+[32m2023-12-31 16:46:57,707 - INFO - Menu test completed.
+
+
+
+[36m2023-12-31 16:46:57,718 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:46:57,719 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:47:42,645 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:47:42,645 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"dd98ce9b-1f56-4d10-8608-30a8b50a978a"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-n1zf7VjSNwRi9bcaNMlsi9ahu/U"', 'Date': 'Sun, 31 Dec 2023 13:47:42 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:42,645 - DEBUG - Finished Request
+[32m2023-12-31 16:47:42,660 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:47:42,660 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:47:45,408 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:47:45,408 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037b-0000-000500000001","ELEMENT":"00000000-0000-037b-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-CNy0J3ZU8b/zjjMVrZNfgaaM2lM"', 'Date': 'Sun, 31 Dec 2023 13:47:45 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:45,408 - DEBUG - Finished Request
+[32m2023-12-31 16:47:45,408 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:47:45,408 - INFO - Element found: True
+[36m2023-12-31 16:47:45,408 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037b-0000-000500000001/click {}
+[36m2023-12-31 16:47:47,371 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037b-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:47:47,371 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:47:47 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:47,371 - DEBUG - Finished Request
+[32m2023-12-31 16:47:47,371 - INFO - Clicked on the element.
+[36m2023-12-31 16:47:47,371 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:47:48,228 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:47:48,228 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037c-0000-001300000018","ELEMENT":"00000000-0000-037c-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-9An8pQd7paUYfqLtbN8cDLQiUNw"', 'Date': 'Sun, 31 Dec 2023 13:47:48 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:48,228 - DEBUG - Finished Request
+[32m2023-12-31 16:47:48,228 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:47:48,228 - INFO - Element found: True
+[36m2023-12-31 16:47:48,228 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:47:48,713 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:47:48,714 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:47:48 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:48,714 - DEBUG - Finished Request
+[32m2023-12-31 16:47:48,714 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:47:48,714 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:47:49,221 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:47:49,221 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037c-0000-001f00000039","ELEMENT":"00000000-0000-037c-0000-001f00000039"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-rqWEHCjYqUixkJ8hylx12bNUeoY"', 'Date': 'Sun, 31 Dec 2023 13:47:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:49,221 - DEBUG - Finished Request
+[32m2023-12-31 16:47:49,221 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:47:49,221 - INFO - Element found: True
+[36m2023-12-31 16:47:49,221 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-001f00000039/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:47:49,311 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-001f00000039/value HTTP/1.1" 200 0
+[36m2023-12-31 16:47:49,311 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:47:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:49,311 - DEBUG - Finished Request
+[32m2023-12-31 16:47:49,311 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:47:49,311 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:47:49,988 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:47:49,988 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037c-0000-000f0000003c","ELEMENT":"00000000-0000-037c-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-SYoStCMRJDRlUP/pc2Ohx9pF1Bg"', 'Date': 'Sun, 31 Dec 2023 13:47:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:49,988 - DEBUG - Finished Request
+[32m2023-12-31 16:47:49,988 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:47:49,988 - INFO - Element found: True
+[36m2023-12-31 16:47:49,988 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-000f0000003c/click {}
+[36m2023-12-31 16:47:50,167 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037c-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:47:50,167 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:47:50 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:47:50,167 - DEBUG - Finished Request
+[32m2023-12-31 16:47:50,167 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:00,173 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:48:00,279 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:00,279 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037e-ffff-ffff00000056","ELEMENT":"00000000-0000-037e-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-nwiE6SHR+yM2AoswRq1PAzsAj1c"', 'Date': 'Sun, 31 Dec 2023 13:48:00 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:00,279 - DEBUG - Finished Request
+[32m2023-12-31 16:48:00,279 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:48:00,279 - INFO - Element found: True
+[32m2023-12-31 16:48:00,279 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:48:00,279 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:48:00,279 - INFO - Starting menu test for option: addHub
+
+[36m2023-12-31 16:48:00,279 - DEBUG - Trying to select option: addHub for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:48:00,279 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:48:00,385 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:00,386 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037e-ffff-ffff00000057","ELEMENT":"00000000-0000-037e-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-EwAAYYczN3Wh01So3v6qbDLKPAY"', 'Date': 'Sun, 31 Dec 2023 13:48:00 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:00,386 - DEBUG - Finished Request
+[32m2023-12-31 16:48:00,386 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:48:00,386 - INFO - Element found: True
+[36m2023-12-31 16:48:00,386 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-ffff-ffff00000057/click {}
+[36m2023-12-31 16:48:00,456 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:00,456 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:00 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:00,456 - DEBUG - Finished Request
+[32m2023-12-31 16:48:00,456 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:00,456 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:48:00,456 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:48:01,656 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:01,657 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037e-ffff-ffff00000094","ELEMENT":"00000000-0000-037e-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-YlXtvLctEPpDIW/N4VLRIksuv7g"', 'Date': 'Sun, 31 Dec 2023 13:48:01 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:01,657 - DEBUG - Finished Request
+[32m2023-12-31 16:48:01,657 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:48:01,657 - INFO - Element found: True
+[36m2023-12-31 16:48:01,657 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-ffff-ffff00000094/click {}
+[36m2023-12-31 16:48:02,212 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:02,212 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:02,212 - DEBUG - Finished Request
+[32m2023-12-31 16:48:02,212 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:02,212 - DEBUG - Checking for menu options
+[36m2023-12-31 16:48:02,212 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/addHub\")"}
+[36m2023-12-31 16:48:02,303 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:02,303 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037e-0000-005100000092","ELEMENT":"00000000-0000-037e-0000-005100000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-RXY2KMcH33+hezVB12KmWlBEM00"', 'Date': 'Sun, 31 Dec 2023 13:48:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:02,303 - DEBUG - Finished Request
+[32m2023-12-31 16:48:02,317 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/addHub")
+[32m2023-12-31 16:48:02,317 - INFO - Element found: True
+[36m2023-12-31 16:48:02,318 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-0000-005100000092/click {}
+[36m2023-12-31 16:48:02,471 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037e-0000-005100000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:02,471 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:02,471 - DEBUG - Finished Request
+[32m2023-12-31 16:48:02,471 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:07,472 - DEBUG - POST http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element {"using": "id", "value": "com.ajaxsystems:id/toolbarTitle"}
+[36m2023-12-31 16:48:07,546 - DEBUG - http://127.0.0.1:4723 "POST /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:07,546 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-037f-ffff-ffff000000ba","ELEMENT":"00000000-0000-037f-ffff-ffff000000ba"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-Npfgkva4Lws5EnIwZj/pLFcPlTU"', 'Date': 'Sun, 31 Dec 2023 13:48:07 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:07,546 - DEBUG - Finished Request
+[32m2023-12-31 16:48:07,546 - INFO - Using ID to find identifier com.ajaxsystems:id/toolbarTitle
+[32m2023-12-31 16:48:07,546 - INFO - Element found: True
+[36m2023-12-31 16:48:07,546 - DEBUG - GET http://127.0.0.1:4723/session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037f-ffff-ffff000000ba/text {}
+[36m2023-12-31 16:48:08,116 - DEBUG - http://127.0.0.1:4723 "GET /session/dd98ce9b-1f56-4d10-8608-30a8b50a978a/element/00000000-0000-037f-ffff-ffff000000ba/text HTTP/1.1" 200 0
+[36m2023-12-31 16:48:08,116 - DEBUG - Remote response: status=200 | data={"sessionId":"dd98ce9b-1f56-4d10-8608-30a8b50a978a","value":"Add Hub"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '70', 'ETag': 'W/"46-UmMHoqpBuA8RX5565+UNpcF8ClY"', 'Date': 'Sun, 31 Dec 2023 13:48:08 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:08,116 - DEBUG - Finished Request
+[32m2023-12-31 16:48:08,116 - INFO - Menu option test passed for credentials: addHub
+[32m2023-12-31 16:48:08,116 - INFO - Menu test completed.
+
+
+
+[36m2023-12-31 16:48:08,133 - DEBUG - POST http://127.0.0.1:4723/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"appium:autoGrantPermissions": true, "appium:automationName": "uiautomator2", "appium:newCommandTimeout": 200, "appium:noSign": true, "platformName": "Android", "appium:resetKeyboard": true, "appium:unicodeKeyboard": true, "appium:takesScreenshot": true, "appium:udid": "11c9ed357d27", "appium:appPackage": "com.ajaxsystems", "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity"}}}
+[36m2023-12-31 16:48:08,133 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+[36m2023-12-31 16:48:40,946 - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/1.1" 200 0
+[36m2023-12-31 16:48:40,947 - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity","platform":"LINUX","webStorageEnabled":false,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","autoGrantPermissions":true,"automationName":"uiautomator2","newCommandTimeout":200,"noSign":true,"resetKeyboard":true,"unicodeKeyboard":true,"takesScreenshot":true,"udid":"11c9ed357d27","appPackage":"com.ajaxsystems","appActivity":"com.ajaxsystems.ui.activity.LauncherActivity"},"deviceName":"11c9ed357d27","deviceUDID":"11c9ed357d27","pixelRatio":"2","statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":720,"height":1294},"deviceApiLevel":27,"platformVersion":"8.1.0","deviceManufacturer":"Xiaomi","deviceModel":"Redmi 6","deviceScreenSize":"720x1440","deviceScreenDensity":320},"sessionId":"e3bfe9e2-8970-4df4-bebe-f4ff468550e7"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1179', 'ETag': 'W/"49b-oimq9XgNLGDCN8NCxuNER6H2FdY"', 'Date': 'Sun, 31 Dec 2023 13:48:40 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:40,947 - DEBUG - Finished Request
+[32m2023-12-31 16:48:40,955 - INFO - Starting login test for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+
+[36m2023-12-31 16:48:40,955 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:48:43,303 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:43,305 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0382-0000-000500000001","ELEMENT":"00000000-0000-0382-0000-000500000001"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-SNViCLGvP6VEewyevh4vkPDVOPk"', 'Date': 'Sun, 31 Dec 2023 13:48:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:43,305 - DEBUG - Finished Request
+[32m2023-12-31 16:48:43,305 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:48:43,305 - INFO - Element found: True
+[36m2023-12-31 16:48:43,306 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0382-0000-000500000001/click {}
+[36m2023-12-31 16:48:43,841 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0382-0000-000500000001/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:43,841 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:43,841 - DEBUG - Finished Request
+[32m2023-12-31 16:48:43,841 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:43,841 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[1]"}
+[36m2023-12-31 16:48:46,525 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:46,525 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0383-0000-001300000018","ELEMENT":"00000000-0000-0383-0000-001300000018"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-2eThdgTU7HrNmEzZt9nqRNv7lAs"', 'Date': 'Sun, 31 Dec 2023 13:48:46 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:46,525 - DEBUG - Finished Request
+[32m2023-12-31 16:48:46,525 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[1]
+[32m2023-12-31 16:48:46,525 - INFO - Element found: True
+[36m2023-12-31 16:48:46,525 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-001300000018/value {"text": "qa.ajax.app.automation@gmail.com", "value": ["q", "a", ".", "a", "j", "a", "x", ".", "a", "p", "p", ".", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"]}
+[36m2023-12-31 16:48:46,841 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-001300000018/value HTTP/1.1" 200 0
+[36m2023-12-31 16:48:46,841 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:46 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:46,841 - DEBUG - Finished Request
+[32m2023-12-31 16:48:46,841 - INFO - Sent the keys qa.ajax.app.automation@gmail.com to the element
+[36m2023-12-31 16:48:46,841 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "xpath", "value": "(//android.widget.EditText[@resource-id=\"defaultAutomationId\"])[2]"}
+[36m2023-12-31 16:48:47,638 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:47,638 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0383-0000-001f00000039","ELEMENT":"00000000-0000-0383-0000-001f00000039"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-Tcsc0STXqxL9N0WGvtTrQBfssqc"', 'Date': 'Sun, 31 Dec 2023 13:48:47 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:47,640 - DEBUG - Finished Request
+[32m2023-12-31 16:48:47,640 - INFO - Using XPATH to find identifier (//android.widget.EditText[@resource-id="defaultAutomationId"])[2]
+[32m2023-12-31 16:48:47,640 - INFO - Element found: True
+[36m2023-12-31 16:48:47,641 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-001f00000039/value {"text": "qa_automation_password", "value": ["q", "a", "_", "a", "u", "t", "o", "m", "a", "t", "i", "o", "n", "_", "p", "a", "s", "s", "w", "o", "r", "d"]}
+[36m2023-12-31 16:48:48,233 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-001f00000039/value HTTP/1.1" 200 0
+[36m2023-12-31 16:48:48,233 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:48 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:48,233 - DEBUG - Finished Request
+[32m2023-12-31 16:48:48,233 - INFO - Sent the keys qa_automation_password to the element
+[36m2023-12-31 16:48:48,233 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "xpath", "value": "//*[@text=\"Log In\"]"}
+[36m2023-12-31 16:48:49,401 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:49,402 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0383-0000-000f0000003c","ELEMENT":"00000000-0000-0383-0000-000f0000003c"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-SYqq4siAxqz7fI32FJaIWeoONWc"', 'Date': 'Sun, 31 Dec 2023 13:48:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:49,402 - DEBUG - Finished Request
+[32m2023-12-31 16:48:49,402 - INFO - Using XPATH to find identifier //*[@text="Log In"]
+[32m2023-12-31 16:48:49,402 - INFO - Element found: True
+[36m2023-12-31 16:48:49,402 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-000f0000003c/click {}
+[36m2023-12-31 16:48:49,517 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0383-0000-000f0000003c/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:49,517 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:49 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:49,517 - DEBUG - Finished Request
+[32m2023-12-31 16:48:49,517 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:59,519 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "id", "value": "com.ajaxsystems:id/hubAdd"}
+[36m2023-12-31 16:48:59,825 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:59,825 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0385-ffff-ffff00000056","ELEMENT":"00000000-0000-0385-ffff-ffff00000056"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-RBSDR8DkD7GLiOu9FrKi5Y1WiMY"', 'Date': 'Sun, 31 Dec 2023 13:48:59 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:59,825 - DEBUG - Finished Request
+[32m2023-12-31 16:48:59,825 - INFO - Using ID to find identifier com.ajaxsystems:id/hubAdd
+[32m2023-12-31 16:48:59,825 - INFO - Element found: True
+[32m2023-12-31 16:48:59,825 - INFO - Login test passed for credentials: {'email': 'qa.ajax.app.automation@gmail.com', 'password': 'qa_automation_password'}
+[32m2023-12-31 16:48:59,825 - INFO - Login test completed.
+
+
+
+[32m2023-12-31 16:48:59,825 - INFO - Starting menu test for option: documentation_text
+
+[36m2023-12-31 16:48:59,825 - DEBUG - Trying to select option: documentation_text for com.ajaxsystems:id/menuDrawer
+[36m2023-12-31 16:48:59,825 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "id", "value": "com.ajaxsystems:id/menuDrawer"}
+[36m2023-12-31 16:48:59,887 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:48:59,897 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0385-ffff-ffff00000057","ELEMENT":"00000000-0000-0385-ffff-ffff00000057"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-tbE1tgYpzq10Jbu1QUj1VSTs9j8"', 'Date': 'Sun, 31 Dec 2023 13:48:59 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:59,897 - DEBUG - Finished Request
+[32m2023-12-31 16:48:59,898 - INFO - Using ID to find identifier com.ajaxsystems:id/menuDrawer
+[32m2023-12-31 16:48:59,899 - INFO - Element found: True
+[36m2023-12-31 16:48:59,899 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-ffff-ffff00000057/click {}
+[36m2023-12-31 16:48:59,950 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-ffff-ffff00000057/click HTTP/1.1" 200 0
+[36m2023-12-31 16:48:59,964 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:48:59 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:48:59,965 - DEBUG - Finished Request
+[32m2023-12-31 16:48:59,966 - INFO - Clicked on the element.
+[36m2023-12-31 16:48:59,966 - DEBUG - Find ScrollView in menu bar
+[36m2023-12-31 16:48:59,966 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "class name", "value": "androidx.compose.ui.platform.ComposeView"}
+[36m2023-12-31 16:49:00,971 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:49:00,972 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0385-ffff-ffff00000094","ELEMENT":"00000000-0000-0385-ffff-ffff00000094"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-7P2zZmCRGP8YSkF5wWC5wBr/PRQ"', 'Date': 'Sun, 31 Dec 2023 13:49:00 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:00,972 - DEBUG - Finished Request
+[32m2023-12-31 16:49:00,972 - INFO - Using CLASS_NAME to find identifier androidx.compose.ui.platform.ComposeView
+[32m2023-12-31 16:49:00,972 - INFO - Element found: True
+[36m2023-12-31 16:49:00,972 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-ffff-ffff00000094/click {}
+[36m2023-12-31 16:49:01,818 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-ffff-ffff00000094/click HTTP/1.1" 200 0
+[36m2023-12-31 16:49:01,819 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:49:01 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:01,820 - DEBUG - Finished Request
+[32m2023-12-31 16:49:01,820 - INFO - Clicked on the element.
+[36m2023-12-31 16:49:01,820 - DEBUG - Checking for menu options
+[36m2023-12-31 16:49:01,820 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "-android uiautomator", "value": "new UiSelector().resourceId(\"com.ajaxsystems:id/documentation_text\")"}
+[36m2023-12-31 16:49:01,922 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:49:01,922 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0385-0000-003a00000092","ELEMENT":"00000000-0000-0385-0000-003a00000092"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-y7Zn9820rcXXmd2M+ACDhkbhPLw"', 'Date': 'Sun, 31 Dec 2023 13:49:01 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:01,922 - DEBUG - Finished Request
+[32m2023-12-31 16:49:01,924 - INFO - Using ANDROID_UIAUTOMATOR to find identifier new UiSelector().resourceId("com.ajaxsystems:id/documentation_text")
+[32m2023-12-31 16:49:01,924 - INFO - Element found: True
+[36m2023-12-31 16:49:01,925 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-0000-003a00000092/click {}
+[36m2023-12-31 16:49:02,102 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0385-0000-003a00000092/click HTTP/1.1" 200 0
+[36m2023-12-31 16:49:02,103 - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 31 Dec 2023 13:49:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:02,103 - DEBUG - Finished Request
+[32m2023-12-31 16:49:02,103 - INFO - Clicked on the element.
+[36m2023-12-31 16:49:07,104 - DEBUG - POST http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element {"using": "id", "value": "com.ajaxsystems:id/toolbarTitle"}
+[36m2023-12-31 16:49:07,216 - DEBUG - http://127.0.0.1:4723 "POST /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element HTTP/1.1" 200 0
+[36m2023-12-31 16:49:07,216 - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0386-ffff-ffff000000ab","ELEMENT":"00000000-0000-0386-ffff-ffff000000ab"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-qaShqaGiwPtXnVJ7SQx/fTl23mU"', 'Date': 'Sun, 31 Dec 2023 13:49:07 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:07,216 - DEBUG - Finished Request
+[32m2023-12-31 16:49:07,216 - INFO - Using ID to find identifier com.ajaxsystems:id/toolbarTitle
+[32m2023-12-31 16:49:07,216 - INFO - Element found: True
+[36m2023-12-31 16:49:07,216 - DEBUG - GET http://127.0.0.1:4723/session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0386-ffff-ffff000000ab/text {}
+[36m2023-12-31 16:49:07,781 - DEBUG - http://127.0.0.1:4723 "GET /session/e3bfe9e2-8970-4df4-bebe-f4ff468550e7/element/00000000-0000-0386-ffff-ffff000000ab/text HTTP/1.1" 200 0
+[36m2023-12-31 16:49:07,782 - DEBUG - Remote response: status=200 | data={"sessionId":"e3bfe9e2-8970-4df4-bebe-f4ff468550e7","value":"Terms of Service"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '79', 'ETag': 'W/"4f-/9H6zT3T8WTERYByDFSpMlgcxO0"', 'Date': 'Sun, 31 Dec 2023 13:49:07 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[36m2023-12-31 16:49:07,782 - DEBUG - Finished Request
+[32m2023-12-31 16:49:07,782 - INFO - Menu option test passed for credentials: documentation_text
+[32m2023-12-31 16:49:07,782 - INFO - Menu test completed.
+
+
+
